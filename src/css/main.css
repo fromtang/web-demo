@@ -1,0 +1,555 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.container{
+    width: 1440px;
+    margin: auto;
+    background-color: #050b1d;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 160px;
+    width: 1200px;
+    height: 56px;
+    padding: 40px 120px 0px;
+}
+
+.navbar li{
+    display: inline-block;
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.frame8{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+
+.frame10{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 160px;
+}
+
+.navbar .frame9 li a{
+    text-decoration: none;
+    color: #adb9c7;
+    padding: 5px 11px;
+}
+
+.frame9 li:hover a{
+    color: #fff;
+}
+
+.frame9 li:active a{
+    border-bottom: 3px solid #1e50ff;
+}
+
+.navbar .frame1{
+    border: 1px solid #1e50ff;
+    border-radius: 16px;
+}
+
+.navbar .frame1:hover{
+    background-color: #1e50ff;
+}
+
+.navbar .frame1 li{
+    padding: 12px 20px;
+}
+
+.navbar .frame1 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero{
+    height: 568px;
+    margin-top: 96px;
+}
+
+.hero .texts{
+    height: 160px;
+    margin-bottom: 56px;
+}
+
+.hero .texts h1{
+    float: left;
+    width: 668px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+    margin-left: 120px;
+}
+
+.hero .slog{
+    float: left;
+    margin: 2px 120px 2px 24px;    
+}
+
+.hero .slog p{
+    width: 488px;
+    height: 96px;
+    color: #adb9c7;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+.hero .slog a{
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    border-bottom: 2px solid #adb9c7;
+}
+
+.hero .slog:hover a{
+    color: #adb9c7;
+}
+
+.hero .image .img3{
+    margin: 0px 18px;
+}
+
+
+.content .logocoin{
+    width: 1200px;
+    height: 56px;
+    line-height: 56px;
+    margin: 120px;
+}
+
+.content .logocoin .bilo,
+.content .logocoin .holo,
+.content .logocoin .melo,
+.content .logocoin .colo{
+    margin-right: 100px;
+}
+
+.content .logocoin .colo{
+    padding-bottom: 5px;
+}
+
+.content .cas{
+    margin: 0px 120px;
+    text-align: center;
+}
+
+.content .cas .cas1,
+.content .cas .cas2,
+.content .cas .cas3{
+    float: left;
+    width: 380px;
+    height: 368px;
+    border: 1px solid #272D37;
+    border-radius: 16px;
+}
+
+.content .cas h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #fff;
+    margin: 120px 300px 56px 300px;
+}
+
+.content .cas .cas1,
+.content .cas .cas3{
+    background-color: #272D37;
+}
+
+.content .cas .cas2{
+    margin: 0px 26px;
+}
+
+.content .cas img{
+    width: 80px;
+    height: 80px;
+    margin: 56px 145px 0px 145px;
+}
+
+.content .cas h4{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.content .cas p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #E7ECF2;
+    margin: 24px 46px 56px 42px;
+}
+
+.content .liau{
+    width: 1204px;
+    height: 688px;
+    margin: 584px 120px 0px;
+}
+
+.content .head{
+    width: 1204px;
+    height: 64px;
+}
+
+.content .head h1{
+    float: left;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 64px;
+    color: #fff;
+}
+
+.content .frame1{
+    float: right;
+    width: 176px;
+    height: 56px;
+    border: 2px solid #1E50FF;
+    border-radius: 16px;
+    line-height: 56px;
+}
+
+.content .frame1:hover{
+    background-color: #1e50ff;
+}
+
+.content a{
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.content .card .pic{
+    position: absolute;
+    width: 336px;
+    height: 352px;
+    border-radius: 24px;
+    margin: 24px;
+}
+
+.content .card .heart{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 48px;
+    margin-left: 296px;
+}
+
+.card .heart:active{
+    background: url(IconPlaceholer1.png);
+    z-index: 10000px;
+}
+
+.content .card .name{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-top: 400px;
+    margin-left: 24px;
+}
+
+
+.content .card .user img{
+    width: 40px;
+    height: 40px;
+    border-radius: 36px;
+    margin-top: 8px;
+    margin-left: 24px;
+}
+
+.content .card .user h6{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    margin-top: -35px;
+    margin-left: 72px;
+}
+
+.content .card .curbid{
+    margin-top: -68px;
+    margin-left: 270px;
+}
+
+.content .card .curbid h6{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #adb9c7;
+    margin-bottom: 8px;
+}
+
+.content .card .curbid h5{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.content .card .fotca a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 129px;
+    height: 46px;
+    background-color: #1E50FF;
+    border-radius: 16px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 46px;
+    text-decoration: none;
+    margin-top: -16px;
+    margin-left: 231px;
+}
+
+.content .card .fotca .time{
+    margin-top: 46px;
+    margin-left: 24px;
+}
+
+.content .card .fotca img{
+    float: left;
+}
+
+.content .card .fotca p{
+    float: left;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.content .card .cardone,
+.content .card .cardtwo,
+.content .card .cardthree,
+.content .card .cardfour,
+.content .card .cardfive,
+.content .card .cardsix{
+    float: left;
+    width: 384px;
+    height: 568px;
+    border: 1px solid;
+    border-radius: 24px;
+    background-color: #272d37;
+    margin-bottom: 56px;
+}
+
+.content .card .cardtwo,
+.content .card .cardfive {
+    margin: 0px 20px;
+}
+
+.content .card{
+    margin-top: 56px;
+}
+
+.content .fear{
+    width: 1200px;
+    height: 329px;
+    margin: 160px 120px;
+}
+
+.content .fear .head{
+    margin-bottom: 56px;
+}
+
+.customer .cust{
+    float: left;
+    padding: 0px 30px;
+}
+
+.customer .cust .bgr{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+.customer .cust .check{
+    width: 26px;
+    height: 26px;
+    border-radius: 100%;
+    margin-left: -32px;
+}
+
+.customer .cust h3{
+    color: #fff;
+    margin: 10px 0px;
+}
+
+.customer .cust .eth{
+    width: 104px;
+    height: 24;
+}
+
+.hotnft{
+    margin: 0px 120px;
+}
+
+.hotnft h1{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.hotnft .menuhot{
+    margin: 0px 183px;
+}
+
+.hotnft .menuhot li{
+    display: inline-block;
+    margin-left: 24px;
+    border: 1px solid rgba(30, 80, 255, 0.1);
+    background-color: rgba(30, 80, 255, 0.1);
+    border-radius: 8px;
+}
+
+.hotnft .menuhot li a{
+    text-align: center;
+    line-height: 56px;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.menuhot li:active a,
+.menuhot li:hover a{
+    background-color: #1e50ff;
+}
+
+.content .cofo{
+    width: 1200px;
+    height: 352px;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #1e50ff;
+    background-color: #1e50ff;
+    border-radius: 16px;
+    margin-top: 1500px;
+    margin-left: 120px;
+}
+
+.cofo h1{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 64px;
+    padding: 48px 332px 24px;
+}
+
+.cofo p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.cofo .frame1{
+    background-color: #fff;
+    color: #1E50FF;
+    padding: 8px 40px;
+    margin: 40px 480px 24px;
+}
+
+.cofo .frame1:hover{
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.footer{
+    height: 480px;
+    padding: 248px 120px 0px;
+}
+
+.footer li{
+    list-style-type: none;
+    line-height: 32px;
+}
+
+.footer p{
+    line-height: 32px;
+    font-size: 16px;
+    color: #adb9c7;
+}
+
+.footer .logofo{
+    float: left;
+    width: 393px;
+    height: 192px;
+}
+
+.footer .logofo p{
+    margin-top: 28px;
+}
+
+.footer .fori h4{
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.footer .fori li{
+    color: #adb9c7;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 24px;
+}
+
+.fori .resources,
+.fori .company,
+.fori .contact{
+    float: left;
+    margin-left: 88px;
+}
+
+.fori .contact img{
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+}
+
+.fori .contact p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.year{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 392px;
+}
+
+
